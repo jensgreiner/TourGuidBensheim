@@ -18,7 +18,7 @@ android {
     versionProps.store(versionPropsFile.newWriter(), null)
 
     defaultConfig {
-        applicationId "com.greiner_co.tourguidbensheim"
+        applicationId "com.greiner_co.tourguidebensheim"
         minSdkVersion 19
         //noinspection OldTargetApi
         targetSdkVersion 25
