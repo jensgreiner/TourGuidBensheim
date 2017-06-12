@@ -1,5 +1,5 @@
 # TourGuideBensheim
-Udacity Android Basics Nanodegree (EU) final project lesson 3 Mulit-Screen Apps
+Udacity Android Basics Nanodegree (EU) final project for lesson 3 "Multi-Screen Apps"
 
 ## Tour Guide App
 
