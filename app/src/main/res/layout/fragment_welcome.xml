@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -30,13 +30,14 @@
             style="@style/TextView_normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bensheim is a town in the Bergstraße district in southern Hesse, Germany. Bensheim lies on the Bergstraße and at the edge of the Odenwald mountains while at the same time having an open view over the Rhine plain. With about 40,051 inhabitants (2015), it is the district’s biggest town." />
+            android:text="@string/fragment_welcome_text_view_normal_intro" />
 
         <ImageView
             android:id="@+id/coat_of_arms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/image_coat_of_arms_of_town"
             android:padding="8dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/wappen_bensheim" />
@@ -45,19 +46,20 @@
             style="@style/TextView_subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Location" />
+            android:text="@string/fragment_welcome_text_view_subtitle_location" />
 
         <TextView
             style="@style/TextView_normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The town lies at the eastern edge of the Rhine rift on the slopes of the western Odenwald on the Bergstraße. The nearest major cities are Darmstadt (some 22 km (14 mi) to the north), Heidelberg (some 35 km (22 mi) to the south), Worms (some 18 km (11 mi) to the west) and Mannheim (some 32 km (20 mi) to the southwest). The district seat of Heppenheim lies roughly 5 km (3 mi) to the south.\n\nThe Lauter flows through Bensheim, coming from the Lauter valley from the east, which after it passes through Bensheim is known as the Winkelbach. In the south of town runs the Meerbach, also coming from the Odenwald (but from the Zell valley). Mostly channelled underground and only coming above ground at the western edge of town is the Neuer Graben, or “New Channel”, which branches off the Lauter." />
+            android:text="@string/fragment_welcome_text_view_normal_location_description" />
 
         <ImageView
             android:id="@+id/map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/image_map"
             app:srcCompat="@drawable/bensheim_map" />
 
     </LinearLayout>
