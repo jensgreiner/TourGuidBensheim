@@ -7,11 +7,12 @@
     <string name="category_sights">Sights</string>
     <string name="category_history">History</string>
     <string name="category_events">Events</string>
-    <string name="image_header_town">Image Header Bensheim</string>
+    <string name="image_header_welcome">Image Header Bensheim</string>
     <string name="fragment_welcome_title">Bensheim</string>
     <string name="image_coat_of_arms_of_town">image coat of arms of town Bensheim</string>
     <string name="fragment_welcome_text_view_normal_intro">Bensheim is a town in the Bergstraße district in southern Hesse, Germany. Bensheim lies on the Bergstraße and at the edge of the Odenwald mountains while at the same time having an open view over the Rhine plain. With about 40,051 inhabitants (2015), it is the district’s biggest town.</string>
     <string name="fragment_welcome_text_view_subtitle_location">Location</string>
     <string name="fragment_welcome_text_view_normal_location_description">The town lies at the eastern edge of the Rhine rift on the slopes of the western Odenwald on the Bergstraße. The nearest major cities are Darmstadt (some 22 km (14 mi) to the north), Heidelberg (some 35 km (22 mi) to the south), Worms (some 18 km (11 mi) to the west) and Mannheim (some 32 km (20 mi) to the southwest). The district seat of Heppenheim lies roughly 5 km (3 mi) to the south.  The Lauter flows through Bensheim, coming from the Lauter valley from the east, which after it passes through Bensheim is known as the Winkelbach. In the south of town runs the Meerbach, also coming from the Odenwald (but from the Zell valley). Mostly channelled underground and only coming above ground at the western edge of town is the Neuer Graben, or “New Channel”, which branches off the Lauter.</string>
     <string name="image_map">image map of Bensheim</string>
+    <string name="image_header_sights">image header</string>
 </resources>

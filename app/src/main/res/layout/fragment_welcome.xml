@@ -15,8 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:contentDescription="@string/image_header_town"
-            android:scaleType="fitCenter"
+            android:contentDescription="@string/image_header_welcome"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/bensheim_panorama_01_1" />
 
         <TextView
