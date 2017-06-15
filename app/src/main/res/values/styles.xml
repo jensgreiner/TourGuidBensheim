@@ -8,4 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView_normal" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/text_view_normal_size</item>
+    </style>
+
+    <style name="TextView_title" parent="TextView_normal">
+        <item name="android:textSize">@dimen/text_view_title_size</item>
+    </style>
+
+    <style name="TextView_subtitle" parent="TextView_normal">
+        <item name="android:textSize">@dimen/text_view_subtitle_size</item>
+    </style>
+
 </resources>

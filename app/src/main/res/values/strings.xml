@@ -8,4 +8,5 @@
     <string name="category_history">History</string>
     <string name="category_events">Events</string>
     <string name="image_header_town">Image Header Bensheim</string>
+    <string name="fragment_welcome_title">Bensheim</string>
 </resources>
