@@ -18,24 +18,30 @@
         <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
         <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
         <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="TextView_title" parent="@style/TextAppearance.AppCompat.Title">
+    <style name="TextView_title" parent="@style/TextAppearance.AppCompat.Headline">
         <item name="android:paddingTop">@dimen/text_view_padding_top_2x</item>
         <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
         <item name="android:paddingStart">@dimen/text_view_padding_start_2x</item>
         <item name="android:paddingLeft">@dimen/text_view_padding_start_2x</item>
         <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
         <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="TextView_subtitle" parent="@style/TextAppearance.AppCompat.Subhead">
+    <style name="TextView_subtitle" parent="@style/TextAppearance.AppCompat.Title">
         <item name="android:paddingTop">@dimen/text_view_padding_top_2x</item>
         <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
         <item name="android:paddingStart">@dimen/text_view_padding_start_2x</item>
         <item name="android:paddingLeft">@dimen/text_view_padding_start_2x</item>
         <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
         <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <!-- App bar style -->

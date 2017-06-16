@@ -21,15 +21,11 @@
 
         <TextView
             style="@style/TextView_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/fragment_welcome_title"
             android:textSize="@dimen/text_view_title_size" />
 
         <TextView
             style="@style/TextView_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/fragment_welcome_text_view_normal_intro" />
 
         <ImageView
@@ -44,14 +40,10 @@
 
         <TextView
             style="@style/TextView_subtitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/fragment_welcome_text_view_subtitle_location" />
 
         <TextView
             style="@style/TextView_normal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/fragment_welcome_text_view_normal_location_description" />
 
         <ImageView
@@ -63,6 +55,22 @@
             android:paddingBottom="@dimen/image_padding"
             android:paddingTop="@dimen/image_padding"
             app:srcCompat="@drawable/bensheim_map" />
+
+        <TextView
+            style="@style/TextView_subtitle"
+            android:text="@string/fragment_text_view_subtitle_climate" />
+
+        <TextView
+            style="@style/TextView_normal"
+            android:text="@string/fragment_welcome_text_view_normal_climate" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_almond_trees"
+            android:paddingTop="@dimen/image_padding"
+            app:srcCompat="@drawable/mandelbaumbluete_in_bensheim" />
 
     </LinearLayout>
 </ScrollView>
