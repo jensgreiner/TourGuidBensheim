@@ -20,7 +20,6 @@ public class SightsFragment extends Fragment {
     // Store the current context
     Context currentContext;
 
-
     public SightsFragment() {
         // Required empty public constructor
     }

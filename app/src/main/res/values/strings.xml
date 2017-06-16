@@ -20,4 +20,5 @@
     <string name="image_almond_trees">image blossoming almond trees</string>
     <string name="menu_item_copyrights_content">Copyrights content</string>
     <string name="image_attraction_description">placeholder</string>
+    <string name="copyright_toolbar_title">Copyrights</string>
 </resources>
