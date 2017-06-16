@@ -40,16 +40,19 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        // Get the {@link Attraction} object located at this position in the list
+        Attraction currentAttraction = getItem(position);
+
         // Check if the existing view is being reused, otherwise inflate the view
         // View could be null when the Activity is called first time
         View listItemView = convertView;
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.attraction_list_item, parent, false);
+            if (currentAttraction != null && currentAttraction.isEvent()) {
+                listItemView = LayoutInflater.from(getContext()).inflate(R.layout.event_list_item, parent, false);
+            } else {
+                listItemView = LayoutInflater.from(getContext()).inflate(R.layout.attraction_list_item, parent, false);
+            }
         }
-
-        // Get the {@link Attraction} object located at this position in the list
-        Attraction currentAttraction = getItem(position);
 
         // Find the TextView in the attraction_list_item.xml layout with the ID attraction_text_view_title
         TextView titleTextView = (TextView) listItemView.findViewById(R.id.attraction_text_view_title);
@@ -65,8 +68,16 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
             detailTextView.setText(currentAttraction.getmAttractionDetails());
         }
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentAttraction != null) {
+        if (currentAttraction != null && currentAttraction.isEvent()) {
+            // Find the TextView in the event_list_item.xml layout to set the day
+            TextView dayTextView = (TextView) listItemView.findViewById(R.id.date_text_view_day);
+            dayTextView.setText(currentAttraction.getmEventDay());
+            TextView monthTextView = (TextView) listItemView.findViewById(R.id.date_text_view_month);
+            monthTextView.setText(currentAttraction.getmEventMonth());
+        }
+
+        if (currentAttraction != null && !currentAttraction.isEvent()) {
+            ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
             // Check if an image id is provided or not
             if (currentAttraction.hasImage()) {
                 imageView.setVisibility(View.VISIBLE);

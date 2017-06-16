@@ -1,6 +1,7 @@
 package com.greiner_co.tourguidebensheim;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -38,7 +39,7 @@ public class EventsFragment extends Fragment {
         // attraction_list.xml file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        View headerView = LayoutInflater.from(currentContext).inflate(R.layout.header_view, null);
+        @SuppressLint("InflateParams") View headerView = LayoutInflater.from(currentContext).inflate(R.layout.header_view, null);
         ImageView imageHeader = (ImageView) headerView.findViewById(R.id.fragment_list_view_header);
         imageHeader.setImageResource(R.drawable.bensheim_panorama_01_4);
         String imageContentDescription = getResources().getString(R.string.image_header_sights);
@@ -50,18 +51,18 @@ public class EventsFragment extends Fragment {
         final ArrayList<Attraction> attractions = new ArrayList<>();
 
         // Create a list of attractions
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "12", "Apr"));
+        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb"));
+        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);
