@@ -5,7 +5,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_welcome">Welcome</string>
     <string name="category_sights">Sights</string>
-    <string name="category_history">History</string>
+    <string name="category_history">Food</string>
     <string name="category_events">Events</string>
     <string name="image_header_welcome">Image Header Bensheim</string>
     <string name="fragment_welcome_title">Bensheim</string>

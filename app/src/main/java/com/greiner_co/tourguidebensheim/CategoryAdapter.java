@@ -41,7 +41,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             case 1:
                 return new SightsFragment();
             case 2:
-                return new HistoryFragment();
+                return new RestaurantsFragment();
             default:
                 return new EventsFragment();
         }
