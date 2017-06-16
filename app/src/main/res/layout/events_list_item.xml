@@ -6,12 +6,40 @@
     android:background="@android:color/white"
     android:minHeight="@dimen/list_item_height">
 
-    <ImageView
-        android:id="@+id/image"
+    <LinearLayout
+        android:id="@+id/date_container"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/image_attraction_description"
-        android:scaleType="centerCrop" />
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/image"
+        android:orientation="vertical"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/date_text_view_day"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="bottom|center_horizontal"
+            android:lines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            tools:text="22" />
+
+        <TextView
+            android:id="@+id/date_text_view_month"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="top|center_horizontal"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:targetApi="lollipop"
+            tools:text="Sep" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -20,7 +48,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@id/image"
+        android:layout_toEndOf="@id/date_container"
         android:orientation="vertical"
         android:paddingEnd="@dimen/list_item_text_container_padding_left"
         android:paddingStart="@dimen/list_item_text_container_padding_left"

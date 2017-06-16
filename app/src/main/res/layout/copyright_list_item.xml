@@ -22,8 +22,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:ellipsize="end"
-            android:gravity="center_vertical"
+            android:gravity="bottom"
             android:maxLines="2"
+            android:paddingBottom="@dimen/list_view_text_view_padding_bottom"
             android:textAppearance="?android:textAppearanceListItem"
             android:textStyle="bold"
             tools:text="lutti" />
