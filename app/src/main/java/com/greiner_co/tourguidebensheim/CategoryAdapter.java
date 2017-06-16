@@ -6,9 +6,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
+ * Custom adapter to be used with tab layout
  * Created by Jens Greiner on 15.06.17.
  */
 
+@SuppressWarnings("WeakerAccess")
 public class CategoryAdapter extends FragmentPagerAdapter {
 
     /**

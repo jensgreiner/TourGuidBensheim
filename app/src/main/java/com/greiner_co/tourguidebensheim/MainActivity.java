@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+@SuppressWarnings("unused")
 public class MainActivity extends AppCompatActivity {
 
     @Override

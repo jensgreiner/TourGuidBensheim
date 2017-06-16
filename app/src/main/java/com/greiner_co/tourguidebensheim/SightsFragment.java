@@ -18,8 +18,10 @@ import java.util.ArrayList;
 public class SightsFragment extends Fragment {
 
     // Store the current context
+    @SuppressWarnings("WeakerAccess")
     Context currentContext;
 
+    @SuppressWarnings("unused")
     public SightsFragment() {
         // Required empty public constructor
     }

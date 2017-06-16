@@ -1,9 +1,13 @@
 package com.greiner_co.tourguidebensheim;
 
+import java.util.Objects;
+
 /**
+ * Data object to hold attractions
  * Created by Jens Greiner on 16.06.17.
  */
 
+@SuppressWarnings("WeakerAccess")
 public class Attraction {
     /**
      * Constant value that represents no image was provided for this attraction
@@ -34,6 +38,7 @@ public class Attraction {
      * @param title   is the title or name of the attraction
      * @param details is the detailed description of the given attraction
      */
+    @SuppressWarnings("unused")
     public Attraction(String title, String details) {
         mAttractionTitle = title;
         mAttractionDetails = details;
@@ -51,6 +56,7 @@ public class Attraction {
     /**
      * Overloaded constructor to create a Attraction object with an date (events)
      */
+    @SuppressWarnings("unused")
     public Attraction(String title, String details, String day, String month) {
         mAttractionTitle = title;
         mAttractionDetails = details;
@@ -96,7 +102,7 @@ public class Attraction {
      */
     // Public methods
     public boolean isEvent() {
-        return (mEventDay != NO_EVENT && mEventMonth != NO_EVENT);
+        return (!Objects.equals(mEventDay, NO_EVENT) && !Objects.equals(mEventMonth, NO_EVENT));
     }
 
     /**

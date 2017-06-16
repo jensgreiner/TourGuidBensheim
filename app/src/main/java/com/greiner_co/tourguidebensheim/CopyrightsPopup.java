@@ -16,6 +16,7 @@ import java.util.ArrayList;
  * @link Inspired by https://youtu.be/fn5OlqQuOCk
  */
 
+@SuppressWarnings("unused")
 public class CopyrightsPopup extends AppCompatActivity {
     /**
      * Called when the activity is starting.  This is where most initialization

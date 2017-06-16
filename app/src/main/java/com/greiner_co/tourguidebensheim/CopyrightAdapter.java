@@ -13,9 +13,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
+ * Custom adapter to be used with copyright objects and list
  * Created by Jens Greiner on 16.06.17.
  */
 
+@SuppressWarnings("WeakerAccess")
 public class CopyrightAdapter extends ArrayAdapter<Copyright> {
     /**
      * Creates a new CopyrightAdapter as a custom extension of ArrayAdapter class

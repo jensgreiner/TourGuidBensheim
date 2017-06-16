@@ -18,8 +18,10 @@ import java.util.ArrayList;
 public class EventsFragment extends Fragment {
 
     // Store the current context
+    @SuppressWarnings("WeakerAccess")
     Context currentContext;
 
+    @SuppressWarnings("unused")
     public EventsFragment() {
         // Required empty public constructor
     }

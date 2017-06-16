@@ -22,8 +22,10 @@ import java.util.ArrayList;
 public class RestaurantsFragment extends Fragment {
 
     // Store the current context
+    @SuppressWarnings("WeakerAccess")
     Context currentContext;
 
+    @SuppressWarnings("unused")
     public RestaurantsFragment() {
         // Required empty public constructor
     }
@@ -110,6 +112,7 @@ public class RestaurantsFragment extends Fragment {
 
     // helper function to check if Maps is installed
     // @link https://stackoverflow.com/a/7116840/1469260
+    @SuppressWarnings("SameParameterValue")
     private boolean isAppInstalled(String uri) {
         PackageManager pm = currentContext.getPackageManager();
         boolean app_installed;

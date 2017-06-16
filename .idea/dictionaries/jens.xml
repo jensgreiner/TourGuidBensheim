@@ -2,31 +2,53 @@
   <dictionary name="jens">
     <words>
       <w>alte</w>
+      <w>archiv</w>
       <w>auerbach</w>
       <w>bachgasse</w>
       <w>baßmannpark</w>
       <w>bensheimer</w>
       <w>bergstraße</w>
       <w>bergsträßer</w>
+      <w>berstraesser</w>
+      <w>bild</w>
+      <w>bilder</w>
       <w>blauer</w>
       <w>blaues</w>
+      <w>blütenkönigin</w>
+      <w>braeu</w>
       <w>bräu</w>
       <w>burggraf</w>
       <w>bürgerfest</w>
+      <w>cethegus</w>
+      <w>curid</w>
       <w>darmstadt</w>
       <w>darmstädter</w>
+      <w>donnerstag</w>
+      <w>dorfmuehle</w>
       <w>dorfmühle</w>
       <w>eckturm</w>
+      <w>eigenes</w>
+      <w>fuerstenlager</w>
       <w>fürstenlager</w>
+      <w>gemeinfrei</w>
+      <w>getm</w>
+      <w>graben</w>
       <w>heppenheim</w>
+      <w>hugin</w>
       <w>höhenweg</w>
       <w>kappengasse</w>
       <w>kichberghäuschen</w>
+      <w>kuebi</w>
+      <w>kübelbeck</w>
       <w>lacus</w>
       <w>lauter</w>
       <w>luginsland</w>
+      <w>maerkte</w>
       <w>maiway</w>
       <w>mandelbaumbluete</w>
+      <w>mapmaster</w>
+      <w>meerbach</w>
+      <w>neuer</w>
       <w>obergasse</w>
       <w>odenwald</w>
       <w>opern</w>
@@ -34,6 +56,8 @@
       <w>rathaus</w>
       <w>roter</w>
       <w>schloss</w>
+      <w>schreiber</w>
+      <w>stiched</w>
       <w>tourguidebensheim</w>
       <w>turm</w>
       <w>türmchen</w>
@@ -42,9 +66,14 @@
       <w>wambolter</w>
       <w>wappen</w>
       <w>weihnachtsmarkt</w>
+      <w>wein</w>
+      <w>weinfruehling</w>
       <w>weinfrühling</w>
       <w>weinlagenwanderung</w>
+      <w>werk</w>
+      <w>winkelbach</w>
       <w>winzerfest</w>
+      <w>zell</w>
       <w>zwingenberg</w>
     </words>
   </dictionary>
