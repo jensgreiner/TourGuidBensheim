@@ -11,7 +11,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/fragment_welcome_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
@@ -29,7 +28,6 @@
             android:text="@string/fragment_welcome_text_view_normal_intro" />
 
         <ImageView
-            android:id="@+id/coat_of_arms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
@@ -47,7 +45,6 @@
             android:text="@string/fragment_welcome_text_view_normal_location_description" />
 
         <ImageView
-            android:id="@+id/map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
