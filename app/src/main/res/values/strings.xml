@@ -21,4 +21,5 @@
     <string name="menu_item_copyrights_content">Copyrights content</string>
     <string name="image_attraction_description">placeholder</string>
     <string name="copyright_toolbar_title">Copyrights</string>
+    <string name="image_of_copyright_description">image of copyright</string>
 </resources>

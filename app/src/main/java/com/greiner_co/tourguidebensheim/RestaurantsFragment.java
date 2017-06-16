@@ -60,7 +60,7 @@ public class RestaurantsFragment extends Fragment {
         attractions.add(new Attraction("Okinawa Sushi&More", "Berliner Ring 89, 64625 Bensheim", R.drawable.okinawa));
         attractions.add(new Attraction("Alte Dorfmühle", "Bachgasse 71, 64625 Bensheim", R.drawable.dorfmuehle_bachgasse_bensheim_auerbach_01));
         attractions.add(new Attraction("Villa Lacus", "Berliner Ring 108, 64625 Bensheim", R.drawable.villa_lacus));
-        attractions.add(new Attraction("Metropolis Bensheim", "Berliner Ring 26, 64625 Bensheim", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Metropolis Bensheim", "Berliner Ring 26, 64625 Bensheim", R.drawable.metropolis));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);

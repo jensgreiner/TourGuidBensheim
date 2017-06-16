@@ -7,26 +7,26 @@ package com.greiner_co.tourguidebensheim;
 public class Copyright {
 
     private final String mCopyrightTitle;
-    private final String mCopyrightDetails;
+    private final int mImageResourceId;
 
-    public Copyright(String title, String detail) {
+    public Copyright(String title, int imageResourceId) {
         mCopyrightTitle = title;
-        mCopyrightDetails = detail;
+        mImageResourceId = imageResourceId;
     }
 
     public String getmCopyrightTitle() {
         return mCopyrightTitle;
     }
 
-    public String getmCopyrightDetails() {
-        return mCopyrightDetails;
+    public int getmCopyrightImage() {
+        return mImageResourceId;
     }
 
     @Override
     public String toString() {
         return "Copyright{" +
                 "mCopyrightTitle='" + mCopyrightTitle + '\'' +
-                ", mCopyrightDetails='" + mCopyrightDetails + '\'' +
+                ", mImageResourceId=" + mImageResourceId +
                 '}';
     }
 }

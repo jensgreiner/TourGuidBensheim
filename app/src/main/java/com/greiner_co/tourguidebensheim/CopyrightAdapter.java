@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -49,18 +50,18 @@ public class CopyrightAdapter extends ArrayAdapter<Copyright> {
         // Get the {@link Copyright} object located at this position in the list
         Copyright currentCopyright = getItem(position);
 
-        // Find the TextView in the copyright_list_item.xml layout with the ID copyright_text_view_title
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.copyright_text_view_title);
-        // Get the copyright title from the current Copyright object and
-        // set this text on the name TextView
         if (currentCopyright != null) {
+            // Find the TextView in the copyright_list_item.xml layout with the ID copyright_text_view_title
+            TextView titleTextView = (TextView) listItemView.findViewById(R.id.copyright_text_view_title);
+            // Get the copyright title from the current Copyright object and
+            // set this text on the name TextView
             titleTextView.setText(currentCopyright.getmCopyrightTitle());
         }
 
-        // Find the TextView in the copyright_list_item.xml named ... and set the text
-        TextView detailTextView = (TextView) listItemView.findViewById(R.id.copyright_text_view_details);
         if (currentCopyright != null) {
-            detailTextView.setText(currentCopyright.getmCopyrightDetails());
+            // Find the ImageView in the copyright_list_item.xml named ... and set the image
+            ImageView imageView = (ImageView) listItemView.findViewById(R.id.copyright_image_view);
+            imageView.setImageResource(currentCopyright.getmCopyrightImage());
         }
 
         return listItemView;

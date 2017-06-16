@@ -19,6 +19,7 @@
 
         <activity
             android:name=".CopyrightsPopup"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.CustomTheme">
 
         </activity>
