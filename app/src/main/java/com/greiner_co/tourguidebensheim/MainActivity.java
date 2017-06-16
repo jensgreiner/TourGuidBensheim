@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Dispatch to Fragment.onCreateOptionsMenu().
      *
-     * @param featureId
-     * @param menu
+     * @param featureId not used here
+     * @param menu object to be used with menu layout
      */
     @Override
     public boolean onCreatePanelMenu(int featureId, Menu menu) {

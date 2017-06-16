@@ -1,7 +1,6 @@
 package com.greiner_co.tourguidebensheim;
 
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -39,7 +38,7 @@ public class EventsFragment extends Fragment {
         // attraction_list.xml file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        @SuppressLint("InflateParams") View headerView = LayoutInflater.from(currentContext).inflate(R.layout.header_view, null);
+        View headerView = View.inflate(currentContext, R.layout.header_view, null);
         ImageView imageHeader = (ImageView) headerView.findViewById(R.id.fragment_list_view_header);
         imageHeader.setImageResource(R.drawable.bensheim_panorama_01_4);
         String imageContentDescription = getResources().getString(R.string.image_header_sights);
