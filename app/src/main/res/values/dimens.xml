@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_view_padding">8dp</dimen>
+    <dimen name="text_view_padding_top">8dp</dimen>
+    <dimen name="text_view_padding_bottom">8dp</dimen>
+    <dimen name="text_view_padding_start">8dp</dimen>
+    <dimen name="text_view_padding_end">8dp</dimen>
+    <dimen name="text_view_padding_2x">16dp</dimen>
+    <dimen name="text_view_padding_top_2x">16dp</dimen>
+    <dimen name="text_view_padding_bottom_2x">16dp</dimen>
+    <dimen name="text_view_padding_start_2x">16dp</dimen>
+    <dimen name="text_view_padding_end_2x">16dp</dimen>
     <dimen name="text_view_title_size">24sp</dimen>
     <dimen name="text_view_normal_size">14sp</dimen>
     <dimen name="text_view_subtitle_size">18sp</dimen>
+    <dimen name="image_padding">8dp</dimen>
 </resources>

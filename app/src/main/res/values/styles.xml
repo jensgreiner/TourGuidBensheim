@@ -6,19 +6,45 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/TourGuideAppBarStyle</item>
     </style>
 
-    <style name="TextView_normal" parent="@android:style/TextAppearance.Widget.TextView">
-        <item name="android:padding">@dimen/text_view_padding</item>
-        <item name="android:textSize">@dimen/text_view_normal_size</item>
+    <!-- TextView styles -->
+    <style name="TextView_normal" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:paddingTop">@dimen/text_view_padding_top</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingLeft">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
+        <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
+        <item name="android:lineSpacingExtra">2dp</item>
     </style>
 
-    <style name="TextView_title" parent="TextView_normal">
-        <item name="android:textSize">@dimen/text_view_title_size</item>
+    <style name="TextView_title" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:paddingTop">@dimen/text_view_padding_top_2x</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingLeft">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
+        <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
     </style>
 
-    <style name="TextView_subtitle" parent="TextView_normal">
-        <item name="android:textSize">@dimen/text_view_subtitle_size</item>
+    <style name="TextView_subtitle" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:paddingTop">@dimen/text_view_padding_top_2x</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingLeft">@dimen/text_view_padding_start_2x</item>
+        <item name="android:paddingEnd">@dimen/text_view_padding_end_2x</item>
+        <item name="android:paddingRight">@dimen/text_view_padding_end_2x</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="TourGuideAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse"></style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">3dp</item>
     </style>
 
 </resources>

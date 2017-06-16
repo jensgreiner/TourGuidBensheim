@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:contentDescription="@string/image_coat_of_arms_of_town"
-            android:padding="8dp"
+            android:padding="@dimen/image_padding"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/wappen_bensheim" />
 
@@ -60,6 +60,8 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:contentDescription="@string/image_map"
+            android:paddingBottom="@dimen/image_padding"
+            android:paddingTop="@dimen/image_padding"
             app:srcCompat="@drawable/bensheim_map" />
 
     </LinearLayout>
