@@ -42,7 +42,7 @@ public class CopyrightsPopup extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_copyright_popup);
+        setContentView(R.layout.copyright_list);
 
         // Make the activity smaller than the devices screen
         DisplayMetrics dm = new DisplayMetrics();
