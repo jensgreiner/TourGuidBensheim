@@ -18,4 +18,5 @@
     <string name="fragment_text_view_subtitle_climate">Climate</string>
     <string name="fragment_welcome_text_view_normal_climate">Bensheim is especially well known, like other places along the Bergstraße as well, for its particularly mild and sunny climate with roughly 2,000 hours of sunshine yearly and Germany’s earliest onset of spring. Under the Odenwald’s protection, kiwifruit, almonds, figs and peaches thrive here, giving the Bergstraße the nickname “Germany’s Riviera”.\n\nThe town of Bensheim fosters almond tree cultivation, to name one example, in people’s front gardens. Each year in Bensheim, there is even a Blütenkönigin (“Blossom Queen”). She is put forth every year by the Bensheim Automobile Club and for decades has been Bensheim’s hallmark both within the country and abroad.</string>
     <string name="image_almond_trees">image blossoming almond trees</string>
+    <string name="menu_item_copyrights_content">Copyrights content</string>
 </resources>

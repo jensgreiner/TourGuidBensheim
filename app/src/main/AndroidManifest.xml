@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".CopyrightsPopup"
+            android:theme="@style/AppTheme.CustomTheme">
+
+        </activity>
     </application>
 
 </manifest>
