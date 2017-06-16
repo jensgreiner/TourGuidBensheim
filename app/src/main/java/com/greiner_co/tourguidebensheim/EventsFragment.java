@@ -51,18 +51,13 @@ public class EventsFragment extends Fragment {
         final ArrayList<Attraction> attractions = new ArrayList<>();
 
         // Create a list of attractions
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "12", "Apr"));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb"));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", "01", "Feb", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Bergsträßer Weinfrühling", "Explore over 180 wines and sparkling wines from the region in the heart of Bensheim", "22", "Apr", R.drawable.bergstraesser_weinfruehling));
+        attractions.add(new Attraction("Weinlagenwanderung", "Numerous hikers and wine lovers take part in this walk through the vineyards between Heppenheim and Zwingenberg", "01", "May", R.drawable.weinlagenwanderung));
+        attractions.add(new Attraction("Maiway", "Music Festival in Bensheim with more than 40 bands on 28 stages – all locations are connected with a red line throughout the city", "24", "May", R.drawable.maiway));
+        attractions.add(new Attraction("Bensheimer Bürgerfest", "The City of Bensheim turns into festival zone with culinary and art", "08", "Jun", R.drawable.buergerfest));
+        attractions.add(new Attraction("Opern Air Fürstenlager", "Enjoy music from Mozart to Verdi during a picnic in the state park Fürstenlager", "24", "Jun", R.drawable.fuerstenlager));
+        attractions.add(new Attraction("Bergsträßer Winzerfest", "Winemakers from the region present their wines in a village Downtown Bensheim", "02", "Sep", R.drawable.winzerfest_bensheim));
+        attractions.add(new Attraction("Weihnachtsmarkt", "Traditional Christmas Market in the heart of the city", "30", "Nov", R.drawable.bensheim_marktplatz_weihnachten_02));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);

@@ -50,10 +50,13 @@ public class SightsFragment extends Fragment {
         final ArrayList<Attraction> attractions = new ArrayList<>();
 
         // Create a list of attractions
-        attractions.add(new Attraction("Das ist der erste Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der zweite Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der dritte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
-        attractions.add(new Attraction("Das ist der vierte Titel", "Jede Menge Details, die man gern noch später nachschauen mag. Oder einfach direkt bei Wikipedia nachschlägt.", R.drawable.bensheim_map));
+        attractions.add(new Attraction("Varieté Pegasus", "Theatre in the Old Tannery from 1873", R.drawable.alte_gerberei_01));
+        attractions.add(new Attraction("Schloss Auerbach", "Castle Auerbach with restaurant, Knights Dinners", R.drawable.schloss_auerbach));
+        attractions.add(new Attraction("Kichberghäuschen", "(220 m), built in 1849, dedicated in 1857", R.drawable.kirchberghaeuschen_bensheim));
+        attractions.add(new Attraction("Rathaus Bensheim", "Town hall, former episcopal theological college", R.drawable.rathaus_bensheim_01));
+        attractions.add(new Attraction("Roter Turm", "Watchtower from the old town wall, from the 13th century", R.drawable.roter_turm_bensheim2));
+        attractions.add(new Attraction("Wambolter Hof", "Former noble estate from about 1732/33", R.drawable.wambolter_hof));
+        attractions.add(new Attraction("Pfarrkirche St. Georg", "Saint George’s Parish Church, from 1830", R.drawable.st_georg_bensheim_tuerme));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);

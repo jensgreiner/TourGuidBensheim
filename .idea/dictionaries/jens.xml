@@ -2,24 +2,50 @@
   <dictionary name="jens">
     <words>
       <w>alte</w>
+      <w>auerbach</w>
       <w>bachgasse</w>
+      <w>baßmannpark</w>
+      <w>bensheimer</w>
       <w>bergstraße</w>
+      <w>bergsträßer</w>
       <w>blauer</w>
+      <w>blaues</w>
       <w>bräu</w>
       <w>burggraf</w>
+      <w>bürgerfest</w>
       <w>darmstadt</w>
       <w>darmstädter</w>
       <w>dorfmühle</w>
+      <w>eckturm</w>
+      <w>fürstenlager</w>
       <w>heppenheim</w>
+      <w>höhenweg</w>
       <w>kappengasse</w>
+      <w>kichberghäuschen</w>
       <w>lacus</w>
       <w>lauter</w>
+      <w>luginsland</w>
+      <w>maiway</w>
       <w>mandelbaumbluete</w>
       <w>obergasse</w>
       <w>odenwald</w>
+      <w>opern</w>
+      <w>pfarrkirche</w>
+      <w>rathaus</w>
+      <w>roter</w>
+      <w>schloss</w>
       <w>tourguidebensheim</w>
+      <w>turm</w>
+      <w>türmchen</w>
+      <w>varieté</w>
       <w>walderdorffer</w>
+      <w>wambolter</w>
       <w>wappen</w>
+      <w>weihnachtsmarkt</w>
+      <w>weinfrühling</w>
+      <w>weinlagenwanderung</w>
+      <w>winzerfest</w>
+      <w>zwingenberg</w>
     </words>
   </dictionary>
 </component>
