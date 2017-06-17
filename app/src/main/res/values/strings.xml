@@ -75,4 +75,21 @@
     <string name="day_bensheim_marktplatz_weihnachten_02">30</string>
     <string name="detail_bensheim_marktplatz_weihnachten_02">Traditional Christmas Market in the heart of the city</string>
     <string name="title_bensheim_marktplatz_weihnachten_02">Weihnachtsmarkt</string>
+    <string name="address_blaueraff">Kappengasse 2, 64625 Bensheim</string>
+    <string name="title_blaueraff">Blauer Aff</string>
+    <string name="address_walderdorffer_hof_bensheim">Obergasse 30, 64625 Bensheim</string>
+    <string name="title_walderdorffer_hof_bensheim">Walderdorffer Hof</string>
+    <string name="address_burggraf_braeu_bensheim_auerbach">Darmstädter Str. 231, 64625 Bensheim</string>
+    <string name="title_burggraf_braeu_bensheim_auerbach">Burggraf Bräu</string>
+    <string name="address_okinawa">Berliner Ring 89, 64625 Bensheim</string>
+    <string name="title_okinawa"><![CDATA[Okinawa Sushi&More]]></string>
+    <string name="address_dorfmuehle_bachgasse_bensheim_auerbach_01">Bachgasse 71, 64625 Bensheim</string>
+    <string name="title_dorfmuehle_bachgasse_bensheim_auerbach_01">Alte Dorfmühle</string>
+    <string name="address_villa_lacus">Berliner Ring 108, 64625 Bensheim</string>
+    <string name="title_villa_lacus">Villa Lacus</string>
+    <string name="address_metropolis">Berliner Ring 26, 64625 Bensheim</string>
+    <string name="title_metropolis">Metropolis Bensheim</string>
+    <string name="google_maps_uri">https://www.google.de/maps/place/</string>
+    <string name="google_maps_package_name">com.google.android.apps.maps</string>
+    <string name="google_maps_activity_name">com.google.android.maps.MapsActivity</string>
 </resources>

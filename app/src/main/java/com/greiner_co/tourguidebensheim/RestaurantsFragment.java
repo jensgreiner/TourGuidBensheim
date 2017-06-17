@@ -56,13 +56,13 @@ public class RestaurantsFragment extends Fragment {
         final ArrayList<Attraction> attractions = new ArrayList<>();
 
         // Create a list of attractions
-        attractions.add(new Attraction("Blauer Aff", "Kappengasse 2, 64625 Bensheim", R.drawable.blaueraff));
-        attractions.add(new Attraction("Walderdorffer Hof", "Obergasse 30, 64625 Bensheim", R.drawable.walderdorffer_hof_bensheim));
-        attractions.add(new Attraction("Burggraf Bräu", "Darmstädter Str. 231, 64625 Bensheim", R.drawable.burggraf_braeu_bensheim_auerbach));
-        attractions.add(new Attraction("Okinawa Sushi&More", "Berliner Ring 89, 64625 Bensheim", R.drawable.okinawa));
-        attractions.add(new Attraction("Alte Dorfmühle", "Bachgasse 71, 64625 Bensheim", R.drawable.dorfmuehle_bachgasse_bensheim_auerbach_01));
-        attractions.add(new Attraction("Villa Lacus", "Berliner Ring 108, 64625 Bensheim", R.drawable.villa_lacus));
-        attractions.add(new Attraction("Metropolis Bensheim", "Berliner Ring 26, 64625 Bensheim", R.drawable.metropolis));
+        attractions.add(new Attraction(getString(R.string.title_blaueraff), getString(R.string.address_blaueraff), R.drawable.blaueraff));
+        attractions.add(new Attraction(getString(R.string.title_walderdorffer_hof_bensheim), getString(R.string.address_walderdorffer_hof_bensheim), R.drawable.walderdorffer_hof_bensheim));
+        attractions.add(new Attraction(getString(R.string.title_burggraf_braeu_bensheim_auerbach), getString(R.string.address_burggraf_braeu_bensheim_auerbach), R.drawable.burggraf_braeu_bensheim_auerbach));
+        attractions.add(new Attraction(getString(R.string.title_okinawa), getString(R.string.address_okinawa), R.drawable.okinawa));
+        attractions.add(new Attraction(getString(R.string.title_dorfmuehle_bachgasse_bensheim_auerbach_01), getString(R.string.address_dorfmuehle_bachgasse_bensheim_auerbach_01), R.drawable.dorfmuehle_bachgasse_bensheim_auerbach_01));
+        attractions.add(new Attraction(getString(R.string.title_villa_lacus), getString(R.string.address_villa_lacus), R.drawable.villa_lacus));
+        attractions.add(new Attraction(getString(R.string.title_metropolis), getString(R.string.address_metropolis), R.drawable.metropolis));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);
@@ -99,9 +99,9 @@ public class RestaurantsFragment extends Fragment {
                 String address = attraction.getmAttractionDetails();
                 address = address.replaceAll(" ", "+");
                 // @link https://stackoverflow.com/a/7116840/1469260
-                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://www.google.de/maps/place/" + address));
-                if (isAppInstalled("com.google.android.apps.maps")) {
-                    intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(getString(R.string.google_maps_uri) + address));
+                if (isAppInstalled(getString(R.string.google_maps_package_name))) {
+                    intent.setClassName(getString(R.string.google_maps_package_name), getString(R.string.google_maps_activity_name));
                 }
                 startActivity(intent);
             }
