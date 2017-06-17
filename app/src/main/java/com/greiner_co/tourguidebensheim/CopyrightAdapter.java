@@ -21,7 +21,7 @@ import java.util.ArrayList;
 @SuppressWarnings("WeakerAccess")
 public class CopyrightAdapter extends ArrayAdapter<Copyright> {
 
-    private Context mContext;
+    private final Context mContext;
 
     /**
      * Creates a new CopyrightAdapter as a custom extension of ArrayAdapter class
