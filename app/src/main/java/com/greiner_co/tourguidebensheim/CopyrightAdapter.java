@@ -47,7 +47,7 @@ public class CopyrightAdapter extends ArrayAdapter<Copyright> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        // ViewHolder Pattern: To refernce the child views for later actions
+        // ViewHolder Pattern: To reference the child views for later actions
         ViewHolder holder;
 
 
@@ -66,7 +66,7 @@ public class CopyrightAdapter extends ArrayAdapter<Copyright> {
             convertView.setTag(holder);
 
         } else {
-            // we've just avoided calling findViewById() on resource everytime
+            // we've just avoided calling findViewById() on resource every time
             // just use viewHolder
             holder = (ViewHolder) convertView.getTag();
         }
