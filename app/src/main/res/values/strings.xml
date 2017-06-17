@@ -92,4 +92,18 @@
     <string name="google_maps_uri">https://www.google.de/maps/place/</string>
     <string name="google_maps_package_name">com.google.android.apps.maps</string>
     <string name="google_maps_activity_name">com.google.android.maps.MapsActivity</string>
+    <string name="detail_alte_gerberei_01">Theatre in the Old Tannery from 1873</string>
+    <string name="title_alte_gerberei_01">Varieté Pegasus</string>
+    <string name="detail_schloss_auerbach">Castle Auerbach with restaurant, Knights Dinners</string>
+    <string name="title_schloss_auerbach">Schloss Auerbach</string>
+    <string name="detail_kirchberghaeuschen_bensheim">(220 m), built in 1849, dedicated in 1857</string>
+    <string name="title_kirchberghaeuschen_bensheim">Kichberghäuschen</string>
+    <string name="detail_rathaus_bensheim_01">Town hall, former episcopal theological college</string>
+    <string name="title_rathaus_bensheim_01">Rathaus Bensheim</string>
+    <string name="detail_roter_turm_bensheim2">Watchtower from the old town wall, from the 13th century</string>
+    <string name="title_roter_turm_bensheim2">Roter Turm</string>
+    <string name="detail_wambolter_hof">Former noble estate from about 1732/33</string>
+    <string name="title_wambolter_hof">Wambolter Hof</string>
+    <string name="detail_st_georg_bensheim_tuerme">Saint George’s Parish Church, from 1830</string>
+    <string name="title_st_georg_bensheim_tuerme">Pfarrkirche St. Georg</string>
 </resources>

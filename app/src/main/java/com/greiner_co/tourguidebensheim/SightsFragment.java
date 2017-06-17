@@ -52,13 +52,13 @@ public class SightsFragment extends Fragment {
         final ArrayList<Attraction> attractions = new ArrayList<>();
 
         // Create a list of attractions
-        attractions.add(new Attraction("Varieté Pegasus", "Theatre in the Old Tannery from 1873", R.drawable.alte_gerberei_01));
-        attractions.add(new Attraction("Schloss Auerbach", "Castle Auerbach with restaurant, Knights Dinners", R.drawable.schloss_auerbach));
-        attractions.add(new Attraction("Kichberghäuschen", "(220 m), built in 1849, dedicated in 1857", R.drawable.kirchberghaeuschen_bensheim));
-        attractions.add(new Attraction("Rathaus Bensheim", "Town hall, former episcopal theological college", R.drawable.rathaus_bensheim_01));
-        attractions.add(new Attraction("Roter Turm", "Watchtower from the old town wall, from the 13th century", R.drawable.roter_turm_bensheim2));
-        attractions.add(new Attraction("Wambolter Hof", "Former noble estate from about 1732/33", R.drawable.wambolter_hof));
-        attractions.add(new Attraction("Pfarrkirche St. Georg", "Saint George’s Parish Church, from 1830", R.drawable.st_georg_bensheim_tuerme));
+        attractions.add(new Attraction(getString(R.string.title_alte_gerberei_01), getString(R.string.detail_alte_gerberei_01), R.drawable.alte_gerberei_01));
+        attractions.add(new Attraction(getString(R.string.title_schloss_auerbach), getString(R.string.detail_schloss_auerbach), R.drawable.schloss_auerbach));
+        attractions.add(new Attraction(getString(R.string.title_kirchberghaeuschen_bensheim), getString(R.string.detail_kirchberghaeuschen_bensheim), R.drawable.kirchberghaeuschen_bensheim));
+        attractions.add(new Attraction(getString(R.string.title_rathaus_bensheim_01), getString(R.string.detail_rathaus_bensheim_01), R.drawable.rathaus_bensheim_01));
+        attractions.add(new Attraction(getString(R.string.title_roter_turm_bensheim2), getString(R.string.detail_roter_turm_bensheim2), R.drawable.roter_turm_bensheim2));
+        attractions.add(new Attraction(getString(R.string.title_wambolter_hof), getString(R.string.detail_wambolter_hof), R.drawable.wambolter_hof));
+        attractions.add(new Attraction(getString(R.string.title_st_georg_bensheim_tuerme), getString(R.string.detail_st_georg_bensheim_tuerme), R.drawable.st_georg_bensheim_tuerme));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         AttractionAdapter itemsAdapter = new AttractionAdapter(getActivity(), attractions);
