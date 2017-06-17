@@ -79,31 +79,31 @@ public class CopyrightsPopup extends AppCompatActivity {
         final ArrayList<Copyright> copyrights = new ArrayList<>();
 
         // Create a list of attractions
-        copyrights.add(new Copyright("By Kuebi = Armin Kübelbeck - own work, made with 8 single pictures stiched to one with the use of Hugin, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5202148", R.drawable.bensheim_panorama_01_2));
-        copyrights.add(new Copyright("By Die Schreiber - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=20148435", R.drawable.wappen_bensheim));
-        copyrights.add(new Copyright("By Mapmaster - OpenStreetMap, CC BY-SA 2.0, https://de.wikipedia.org/w/index.php?curid=6478098", R.drawable.bensheim_map));
-        copyrights.add(new Copyright("By Armin Kübelbeck - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1793432", R.drawable.mandelbaumbluete_in_bensheim));
-        copyrights.add(new Copyright("By Kuebi = Armin Kübelbeck - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3897953", R.drawable.alte_gerberei_01));
-        copyrights.add(new Copyright("Public Domain, https://commons.wikimedia.org/w/index.php?curid=416183", R.drawable.schloss_auerbach));
-        copyrights.add(new Copyright("By Kuebi = Armin Kübelbeck - Eigenes Werk (own picture), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1685132", R.drawable.kirchberghaeuschen_bensheim));
-        copyrights.add(new Copyright("By Kuebi = Armin Kübelbeck - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3935396", R.drawable.rathaus_bensheim_01));
-        copyrights.add(new Copyright("By Armin Kübelbeck - eigenes Bild --Kuebi 15:06, 3 February 2007 (UTC), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1631867", R.drawable.roter_turm_bensheim2));
-        copyrights.add(new Copyright("Public Domain, https://commons.wikimedia.org/w/index.php?curid=498901", R.drawable.wambolter_hof));
-        copyrights.add(new Copyright("Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=498882", R.drawable.st_georg_bensheim_tuerme));
-        copyrights.add(new Copyright("Klaus Rommel: http://www.panoramio.com/photo/129676954", R.drawable.blaueraff));
-        copyrights.add(new Copyright("By User:Cethegus - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=498891", R.drawable.walderdorffer_hof_bensheim));
-        copyrights.add(new Copyright("http://gastrogewerbeauskunft.de/listings/burggraf-braeu/", R.drawable.burggraf_braeu_bensheim_auerbach));
-        copyrights.add(new Copyright("http://okinawa-bensheim.de/tischreservierung/", R.drawable.okinawa));
-        copyrights.add(new Copyright("https://commons.wikimedia.org/wiki/File:Dorfmuehle_Bachgasse_Bensheim-Auerbach_01.jpg", R.drawable.dorfmuehle_bachgasse_bensheim_auerbach_01));
-        copyrights.add(new Copyright("http://www.villa-lacus.de/ueber-uns", R.drawable.villa_lacus));
-        copyrights.add(new Copyright("http://www.metropolis-bensheim.de", R.drawable.metropolis));
-        copyrights.add(new Copyright("http://blog-wein-knueller.de/rund-um-den-wein/berstraesser-weinfruehling.html", R.drawable.bergstraesser_weinfruehling));
-        copyrights.add(new Copyright("http://www.bergstraesser-wein.de/weinlagenwanderung/", R.drawable.weinlagenwanderung));
-        copyrights.add(new Copyright("http://www.mymaiway.de/startseite/", R.drawable.maiway));
-        copyrights.add(new Copyright("http://www.buergerfest-bensheim.de/cms/bilder-archiv/bilder-2016/bilder-2016-donnerstag", R.drawable.buergerfest));
-        copyrights.add(new Copyright("http://fuerstenlager.info", R.drawable.fuerstenlager));
-        copyrights.add(new Copyright("https://www.bensheim.de/kultur/feste-maerkte-in-bensheim.html", R.drawable.winzerfest_bensheim));
-        copyrights.add(new Copyright("https://de.wikipedia.org/wiki/Marktplatz_(Bensheim)", R.drawable.bensheim_marktplatz_weihnachten_02));
+        copyrights.add(new Copyright(getString(R.string.copyright_bensheim_panorama_01_2), R.drawable.bensheim_panorama_01_2));
+        copyrights.add(new Copyright(getString(R.string.copyright_wappen_bensheim), R.drawable.wappen_bensheim));
+        copyrights.add(new Copyright(getString(R.string.copyright_bensheim_map), R.drawable.bensheim_map));
+        copyrights.add(new Copyright(getString(R.string.copyright_mandelbaumbluete_in_bensheim), R.drawable.mandelbaumbluete_in_bensheim));
+        copyrights.add(new Copyright(getString(R.string.copyright_alte_gerberei_01), R.drawable.alte_gerberei_01));
+        copyrights.add(new Copyright(getString(R.string.copyright_schloss_auerbach), R.drawable.schloss_auerbach));
+        copyrights.add(new Copyright(getString(R.string.copyright_kirchberghaeuschen_bensheim), R.drawable.kirchberghaeuschen_bensheim));
+        copyrights.add(new Copyright(getString(R.string.copyright_rathaus_bensheim_01), R.drawable.rathaus_bensheim_01));
+        copyrights.add(new Copyright(getString(R.string.copyright_roter_turm_bensheim2), R.drawable.roter_turm_bensheim2));
+        copyrights.add(new Copyright(getString(R.string.copyright_wambolter_hof), R.drawable.wambolter_hof));
+        copyrights.add(new Copyright(getString(R.string.copyright_st_georg_bensheim_tuerme), R.drawable.st_georg_bensheim_tuerme));
+        copyrights.add(new Copyright(getString(R.string.copyright_blaueraff), R.drawable.blaueraff));
+        copyrights.add(new Copyright(getString(R.string.copyright_walderdorffer_hof_bensheim), R.drawable.walderdorffer_hof_bensheim));
+        copyrights.add(new Copyright(getString(R.string.copyright_burggraf_braeu_bensheim_auerbach), R.drawable.burggraf_braeu_bensheim_auerbach));
+        copyrights.add(new Copyright(getString(R.string.copyright_okinawa), R.drawable.okinawa));
+        copyrights.add(new Copyright(getString(R.string.copyright_dorfmuehle_bachgasse_bensheim_auerbach_01), R.drawable.dorfmuehle_bachgasse_bensheim_auerbach_01));
+        copyrights.add(new Copyright(getString(R.string.copyright_villa_lacus), R.drawable.villa_lacus));
+        copyrights.add(new Copyright(getString(R.string.copyright_metropolis), R.drawable.metropolis));
+        copyrights.add(new Copyright(getString(R.string.copyright_bergstraesser_weinfruehling), R.drawable.bergstraesser_weinfruehling));
+        copyrights.add(new Copyright(getString(R.string.copyright_weinlagenwanderung), R.drawable.weinlagenwanderung));
+        copyrights.add(new Copyright(getString(R.string.copyright_maiway), R.drawable.maiway));
+        copyrights.add(new Copyright(getString(R.string.copyright_buergerfest), R.drawable.buergerfest));
+        copyrights.add(new Copyright(getString(R.string.copyright_fuerstenlager), R.drawable.fuerstenlager));
+        copyrights.add(new Copyright(getString(R.string.copyright_winzerfest_bensheim), R.drawable.winzerfest_bensheim));
+        copyrights.add(new Copyright(getString(R.string.copyright_bensheim_marktplatz_weihnachten_02), R.drawable.bensheim_marktplatz_weihnachten_02));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings.
         CopyrightAdapter itemsAdapter = new CopyrightAdapter(this, copyrights);

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Bensheim Tour Guide</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -22,4 +22,29 @@
     <string name="copyright_toolbar_title">Copyrights</string>
     <string name="image_of_copyright_description">image of copyright</string>
     <string name="header_image_content_description">image header view for tabs</string>
+    <string name="copyright_bensheim_panorama_01_2">By Kuebi = Armin Kübelbeck - own work, made with 8 single pictures stiched to one with the use of Hugin, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5202148</string>
+    <string name="copyright_wappen_bensheim">By Die Schreiber - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=20148435</string>
+    <string name="copyright_bensheim_map">By Mapmaster - OpenStreetMap, CC BY-SA 2.0, https://de.wikipedia.org/w/index.php?curid=6478098</string>
+    <string name="copyright_mandelbaumbluete_in_bensheim">By Armin Kübelbeck - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1793432</string>
+    <string name="copyright_alte_gerberei_01">By Kuebi = Armin Kübelbeck - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3897953</string>
+    <string name="copyright_schloss_auerbach">Public Domain, https://commons.wikimedia.org/w/index.php?curid=416183</string>
+    <string name="copyright_kirchberghaeuschen_bensheim">By Kuebi = Armin Kübelbeck - Eigenes Werk (own picture), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1685132</string>
+    <string name="copyright_rathaus_bensheim_01">By Kuebi = Armin Kübelbeck - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3935396</string>
+    <string name="copyright_roter_turm_bensheim2" tools:ignore="TypographyDashes">By Armin Kübelbeck - eigenes Bild --Kuebi 15:06, 3 February 2007 (UTC), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1631867</string>
+    <string name="copyright_wambolter_hof">Public Domain, https://commons.wikimedia.org/w/index.php?curid=498901</string>
+    <string name="copyright_st_georg_bensheim_tuerme">Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=498882</string>
+    <string name="copyright_blaueraff">Klaus Rommel: http://www.panoramio.com/photo/129676954</string>
+    <string name="copyright_walderdorffer_hof_bensheim">By User:Cethegus - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=498891</string>
+    <string name="copyright_burggraf_braeu_bensheim_auerbach">http://gastrogewerbeauskunft.de/listings/burggraf-braeu/</string>
+    <string name="copyright_okinawa">http://okinawa-bensheim.de/tischreservierung/</string>
+    <string name="copyright_dorfmuehle_bachgasse_bensheim_auerbach_01">https://commons.wikimedia.org/wiki/File:Dorfmuehle_Bachgasse_Bensheim-Auerbach_01.jpg</string>
+    <string name="copyright_villa_lacus">http://www.villa-lacus.de/ueber-uns</string>
+    <string name="copyright_metropolis">http://www.metropolis-bensheim.de</string>
+    <string name="copyright_bergstraesser_weinfruehling">http://blog-wein-knueller.de/rund-um-den-wein/berstraesser-weinfruehling.html</string>
+    <string name="copyright_weinlagenwanderung">http://www.bergstraesser-wein.de/weinlagenwanderung/</string>
+    <string name="copyright_maiway">http://www.mymaiway.de/startseite/</string>
+    <string name="copyright_buergerfest">http://www.buergerfest-bensheim.de/cms/bilder-archiv/bilder-2016/bilder-2016-donnerstag</string>
+    <string name="copyright_fuerstenlager">http://fuerstenlager.info</string>
+    <string name="copyright_winzerfest_bensheim">https://www.bensheim.de/kultur/feste-maerkte-in-bensheim.html</string>
+    <string name="copyright_bensheim_marktplatz_weihnachten_02">https://de.wikipedia.org/wiki/Marktplatz_(Bensheim)</string>
 </resources>

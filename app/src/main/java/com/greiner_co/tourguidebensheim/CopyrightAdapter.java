@@ -1,5 +1,6 @@
 package com.greiner_co.tourguidebensheim;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -19,6 +20,9 @@ import java.util.ArrayList;
 
 @SuppressWarnings("WeakerAccess")
 public class CopyrightAdapter extends ArrayAdapter<Copyright> {
+
+    private Context mContext;
+
     /**
      * Creates a new CopyrightAdapter as a custom extension of ArrayAdapter class
      *
@@ -27,6 +31,7 @@ public class CopyrightAdapter extends ArrayAdapter<Copyright> {
      */
     public CopyrightAdapter(Context context, ArrayList<Copyright> copyrights) {
         super(context, 0, copyrights);
+        mContext = context;
     }
 
     /**
@@ -41,31 +46,57 @@ public class CopyrightAdapter extends ArrayAdapter<Copyright> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        // Check if the existing view is being reused, otherwise inflate the view
-        // View could be null when the Activity is called first time
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.copyright_list_item, parent, false);
+
+        // ViewHolder Pattern: To refernce the child views for later actions
+        ViewHolder holder;
+
+
+        if (convertView == null) {
+
+            // Inflate the layout
+            LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
+            convertView = inflater.inflate(R.layout.copyright_list_item, parent, false);
+
+            // Setup viewHolder
+            holder = new ViewHolder();
+            holder.titleText = (TextView) convertView.findViewById(R.id.copyright_text_view_title);
+            holder.image = (ImageView) convertView.findViewById(R.id.copyright_image_view);
+
+            // store the holder with the view
+            convertView.setTag(holder);
+
+        } else {
+            // we've just avoided calling findViewById() on resource everytime
+            // just use viewHolder
+            holder = (ViewHolder) convertView.getTag();
         }
 
         // Get the {@link Copyright} object located at this position in the list
         Copyright currentCopyright = getItem(position);
 
         if (currentCopyright != null) {
-            // Find the TextView in the copyright_list_item.xml layout with the ID copyright_text_view_title
-            TextView titleTextView = (TextView) listItemView.findViewById(R.id.copyright_text_view_title);
+            // get TextView from ViewHolder and then set the text
+
             // Get the copyright title from the current Copyright object and
-            // set this text on the name TextView
-            titleTextView.setText(currentCopyright.getmCopyrightTitle());
+            // set this text on the holder TextView
+            holder.titleText.setText(currentCopyright.getmCopyrightTitle());
+            // set the image
+            holder.image.setImageResource(currentCopyright.getmCopyrightImage());
         }
 
-        if (currentCopyright != null) {
-            // Find the ImageView in the copyright_list_item.xml named ... and set the image
-            ImageView imageView = (ImageView) listItemView.findViewById(R.id.copyright_image_view);
-            imageView.setImageResource(currentCopyright.getmCopyrightImage());
-        }
+        return convertView;
+    }
 
-        return listItemView;
+    /**
+     * ViewHolder pattern: findViewById method is expensive to use frequently.
+     * Having a static class ViewHolder to store the content and retrieve it in an ArrayAdapter
+     * is less expensive. (see also code parts above)
+     * Suggested by Udacity code reviewer for this project
+     *
+     * @link https://stackoverflow.com/a/3832467
+     */
+    static class ViewHolder {
+        TextView titleText;
+        ImageView image;
     }
 }
