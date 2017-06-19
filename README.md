@@ -30,8 +30,7 @@ Next, you'll fill in those lists with list items, populated using a custom adapt
 
 #### Screenshots
 
-Video:
-[![YouTube](https://img.youtube.com/vi/Y6C4BHEkXYM/0.jpg)](https://www.youtube.com/watch?v=Y6C4BHEkXYM)
+Video: https://youtu.be/Y6C4BHEkXYM
 
 <img src="https://dl.dropboxusercontent.com/s/teipzw0wg9lnte3/device-2017-06-19-193734.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/en2yclncgrc3qni/device-2017-06-19-193818.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/yahdhydl8n27auz/device-2017-06-19-193922.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/gr9x23xg8v0xt1o/device-2017-06-19-193956.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/z610qytpo3tztt3/device-2017-06-19-211538.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/spefpnssa15ulsc/device-2017-06-19-194018.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/0dnca3t7j4r37k2/device-2017-06-19-194036.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/ahana4assn66c78/device-2017-06-19-194056.png" alt="" width=200/>
 
