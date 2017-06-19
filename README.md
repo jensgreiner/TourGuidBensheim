@@ -29,3 +29,10 @@ Once you've decided on the location you'd like to show off, you'll want to build
 Next, you'll fill in those lists with list items, populated using a custom adapter. It may make sense for some lists to include information such as a phone number or business hours, but for others it may make more sense to have a photograph. Design your adapter based on the information you would like to show.
 
 #### Screenshots
+
+Video:
+[![YouTube](https://img.youtube.com/vi/Y6C4BHEkXYM/0.jpg)](https://www.youtube.com/watch?v=Y6C4BHEkXYM)
+
+<img src="https://dl.dropboxusercontent.com/s/teipzw0wg9lnte3/device-2017-06-19-193734.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/en2yclncgrc3qni/device-2017-06-19-193818.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/yahdhydl8n27auz/device-2017-06-19-193922.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/gr9x23xg8v0xt1o/device-2017-06-19-193956.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/z610qytpo3tztt3/device-2017-06-19-211538.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/spefpnssa15ulsc/device-2017-06-19-194018.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/0dnca3t7j4r37k2/device-2017-06-19-194036.png" alt="" width=200/> <img src="https://dl.dropboxusercontent.com/s/ahana4assn66c78/device-2017-06-19-194056.png" alt="" width=200/>
+
+<img src="https://dl.dropboxusercontent.com/s/2lhayec8zgkq41s/device-2017-06-19-194142.png" alt="" width=400/> <img src="https://dl.dropboxusercontent.com/s/ngapx0zp79x8hfn/device-2017-06-19-194201.png" alt="" width=400/>
